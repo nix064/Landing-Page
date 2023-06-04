@@ -1,7 +1,7 @@
 body {
     margin: 0;
     font-family: "Roboto", Arial, Helvetica, sans-serif;
-}
+}   
 
 a {
     text-decoration: none;
@@ -48,6 +48,7 @@ header {
     flex: 1 1 0;
     padding-top: 0;
     padding-right: 20px;
+    color: #F9FAF8;
 }
 
 h1 {
@@ -59,7 +60,11 @@ h1 {
 
 p {
     margin-top: 0;
-    color: #E5E7EB;
+    color: #F9FAF8;
+}
+
+#sub {
+    color: grey;
 }
 
 .header {
@@ -67,7 +72,7 @@ p {
     flex-direction: column;
     margin-left: 176px;
     margin-right: 176px;
-    padding-bottom: 25px;
+    padding-bottom: 72px;
 }
 
 .placeholderimg {
@@ -80,20 +85,59 @@ p {
     background-color: grey;
     flex: 1 1 0;
     text-align: center;
-    
-    
-    
-    
 
 }
 
+.titlemain1 {
+    text-align: center;
+    color: #1F2937;
+    font-size: 28px;
+    font-weight: extra-bold;
+}
 
+img {
+    border-radius: 10%;
+    border: 3px solid #3882F6;
+    height: 144px;
+    width: 144px;
+    align-items: center;
+}
 
+button {
+    background: #3882F6;
+    color: #F9FAF8;
+    padding: 8px 24px;
+    border: none;
+    border-radius: 10%;
+}
 
+.text {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: grey;
+}
 
+.child {
+    max-width: 144px;
+}
 
+.container {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 96px;
+    gap: 44px;
+}
 
+.quote {
+    background: #E5E7EB; 
+}
 
+.top {
+    font-size: 28px;
+    font-style: italic;
+    color: #1F2937;
+}
 
 
 
