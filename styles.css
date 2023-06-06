@@ -109,6 +109,8 @@ button {
     padding: 8px 24px;
     border: none;
     border-radius: 10%;
+    width: 100px;
+    height: 30px;
 }
 
 .text {
@@ -131,19 +133,66 @@ button {
 
 .quote {
     background: #E5E7EB; 
+    display: flex;
+    flex-direction: column;
+    padding: 100px 300px;
 }
 
 .top {
     font-size: 28px;
     font-style: italic;
+    font-weight: 100;
     color: #1F2937;
+    
 }
 
+.bot {
+    align-self: flex-end;
+}
 
+.call {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 60px;
+    background-color: #3882F6;
+    color: #E5E7EB;
+    margin: 50px 100px;
+    align-items: center;
+    border-radius: 2%;
+}
 
+#signup {
+    border-radius: 10%;
+    border: 2px solid #E5E7EB;
+    padding: 5px 20px;
+    
+}
 
+#click {
+    padding-top: 0;
+    margin-top: 0;
+}
 
+h4 {
+    margin-bottom: 0;
+    padding-bottom: 0;
+    font-size: 18px;
+}
 
+footer {
+    background-color: #1F2937;
+    color: #E5E7EB;
+    display: flex;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 52px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    padding-top: 18px;
+
+}
 
 
 
